@@ -2,8 +2,7 @@ import datetime as dt
 
 import pytest
 
-from allocation_service import Batch, OrderLine, allocate, OutOfStock
-
+from allocation_service import Batch, OrderLine, OutOfStock, allocate
 
 today = dt.date.today()
 tomorrow = today + dt.timedelta(1)
